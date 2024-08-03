@@ -1,10 +1,10 @@
-# Introduction to Cybersecurity Project
+# Introduction to Cybersecurity
 
 ## Learning Objectives
 
 #### What is Cybersecurity?
 
-- Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage./
+- Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage.
   It encompasses a range of practices and technologies designed to safeguard data and systems.
 
 #### What are the Core Principles of Cybersecurity? (CIA Triad)
