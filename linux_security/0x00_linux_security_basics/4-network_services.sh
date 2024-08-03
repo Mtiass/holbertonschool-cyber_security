@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netsat -tuln
+sudo netstat -tuln
