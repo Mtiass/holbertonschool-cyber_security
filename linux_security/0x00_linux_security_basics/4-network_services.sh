@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ss -tnlp | ss -unlp
+sudo netsat -tuln
