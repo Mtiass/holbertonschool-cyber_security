@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type=MX "$1"
+^nslookup.-(q|query|type|querytype)=[m,M][x,X].\$1
