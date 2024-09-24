@@ -1,0 +1,1 @@
+/hidden-directory, wp-login.php, wordpress
