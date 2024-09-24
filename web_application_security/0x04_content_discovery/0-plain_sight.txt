@@ -1,1 +1,1 @@
-/hidden-directory, wp-login.php, wordpress
+/wp-admin, wp-upload.php, wordpress
