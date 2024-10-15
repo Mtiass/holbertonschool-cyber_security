@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -name snmp
+grep -RiIl "public"
