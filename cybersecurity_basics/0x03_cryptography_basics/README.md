@@ -1,13 +1,13 @@
 # Cryptography in Cybersecurity
 
-This repository contains information about cryptography in cybersecurity,/
-including encryption, decryption, hash algorithms, and password-cracking/
+This repository contains information about cryptography in cybersecurity,\
+including encryption, decryption, hash algorithms, and password-cracking\
 tools like John the Ripper and Hashcat.
 
 ## What is Cryptography?
 
-Cryptography is the practice and study of techniques for secure communication in the presence of adversaries./
-It involves transforming plaintext (readable text) into ciphertext (unreadable text) using mathematical/
+Cryptography is the practice and study of techniques for secure communication in the presence of adversaries.\
+It involves transforming plaintext (readable text) into ciphertext (unreadable text) using mathematical\
 algorithms and then reversing this process to retrieve the original message.
 
 ### Types of Cryptography
