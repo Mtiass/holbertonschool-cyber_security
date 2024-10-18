@@ -12,7 +12,7 @@ In Linux, there are three main user-based permission groups:
 
 Several important commands are used for managing file permissions:
 
-*chmod*
+*chmod*\
 The chmod command is used to change file permissions. It can be used symbolically or numerically:
 ```
 chmod u+x filename
@@ -22,25 +22,25 @@ chmod u+x filename
 chmod 755 filename
 ```
 
-*sudo*
+*sudo*\
 sudo allows users to execute commands with root privileges:
 ```
 sudo chmod 644 sensitive_file.txt
 ```
 
-*su*
+*su*\
 su switches to another user account:
 ```
 su - username
 ```
 
-*chown*
+*chown*\
 chown changes the owner and group of a file or directory:
 ```
 chown newowner:newgroup filename
 ```
 
-*chgrp*
+*chgrp*\
 chgrp changes the group ownership of a file or directory:
 ```
 chgrp newgroup filename
@@ -50,20 +50,19 @@ chgrp newgroup filename
 
 Linux provides special permissions that can enhance security and functionality:
 
-*setuid (SUID)*
+*setuid (SUID)*\
 Set User ID makes an executable run with the privileges of the file's owner.
 
-*setgid (SGID)*
+*setgid (SGID)*\
 Set Group ID makes an executable run with the privileges of the file's group.
 
-*Sticky Bit*
+*Sticky Bit*\
 The sticky bit allows only the owner or root to delete files in a directory.
 
 ### Difference Between chown and chgrp
 
-chown changes both ownership and group ownership
+chown changes both ownership and group ownership\
 chgrp specifically changes the group ownership
-Example:
 
 # Change owner and group
 ```
@@ -85,8 +84,8 @@ sudo chgrp newgroup filename
 
 To audit file permissions changes:
 
-1 - Use the auditctl command to enable auditing
-2 - Set up rules to monitor permission changes
+1 - Use the auditctl command to enable auditing\
+2 - Set up rules to monitor permission changes\
 3 - Review audit logs periodically
 
 ## Umask in Linux
