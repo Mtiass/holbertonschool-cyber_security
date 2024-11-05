@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap $1 -p 80-85 -f -T2
+sudo nmap -sF $1 -p 80-85 -f -T2
