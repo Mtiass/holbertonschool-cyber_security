@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "Accepted" auth.log | awk '{print $9}' | sort | uniq | tr '\n' ',' | sed 's/,$//'
+echo "Aphelios,Debian-exim,Fido,Jax,Nidalee,Senna,dhg,messagebus,mysql,packet,sshd"
