@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "6"
+grep -i "iptables" auth.log | grep -i "add" | wc -l
