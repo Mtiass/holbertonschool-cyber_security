@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "54.145.34.34"
+awk '{print $1}' $1 | sort | uniq -c | sort -rn | awk '{print $2}' | head -n 1
