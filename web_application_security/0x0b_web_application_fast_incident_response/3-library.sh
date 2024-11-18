@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "python-requests/2.31.0"
+awk -v ip="$2" '$1 == ip {print $7}' $1 | sort | uniq -c | sort -rn | awk '{print $2,$1}'
