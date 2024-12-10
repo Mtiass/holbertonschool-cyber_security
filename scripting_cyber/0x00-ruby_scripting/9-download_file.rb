@@ -1,5 +1,6 @@
 #!/bin/usr/env ruby
 require 'open-uri'
+require 'uri'
 
 if ARGV.length != 2
   puts "Usage: 9-download_file.rb URL LOCAL_FILE_PATH"
@@ -8,7 +9,7 @@ end
 
 url = ARGV[0]
 local_file_path = ARGV[1]
-file = open(url)
+file = URI.open(url)
 content = file.read
 file.close
   
