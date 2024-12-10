@@ -10,6 +10,9 @@ end
 
 url = ARGV[0]
 local_file_path = ARGV[1]
+
+puts "Downloading file from #{url}..."
+
 file = URI.open(url)
 content = file.read
 file.close
@@ -19,3 +22,5 @@ dir = File.dirname(local_file_path)
 local_file = File.open(local_file_path, 'wb')
 local_file.write(content)
 local_file.close
+
+puts "File downloaded and saved to #{local_file_path}."
