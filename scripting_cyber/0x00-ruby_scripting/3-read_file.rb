@@ -4,9 +4,14 @@ require 'json'
 def count_user_ids(path)
   file_cont = File.read(path)
   info = JSON.parse(file_cont)
-  u_id_count = 0
-  info.each do |item|
-    u_id_count += 1 if item['userId']
+  id_count = Hash.new(0)
+
+  info.each do |entry|
+    u_id = entry['userId']
+    id_count[u_id] += 1
   end
-  return u_id_count
+
+  id_count.each do |u_id, count|
+    puts "#{u_id}: #{count}"
+  end
 end
