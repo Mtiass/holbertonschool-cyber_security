@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 class HelloWorld
   def initialize
-    @message = "Hello World!"
+    @message = "Hello, World!"
   end
 
   def print_hello
-    puts "#{@meassage}"
+    puts @meassage
   end
 end
