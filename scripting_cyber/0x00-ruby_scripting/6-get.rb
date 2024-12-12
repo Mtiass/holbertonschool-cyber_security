@@ -3,7 +3,7 @@ require 'json'
 require 'net/http'
 require 'uri'
 
-def get_reequest(url)
+def get_request(url)
   
   uri = URI.parse(url)
 
