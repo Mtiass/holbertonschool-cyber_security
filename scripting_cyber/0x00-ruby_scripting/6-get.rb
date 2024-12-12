@@ -9,7 +9,7 @@ def get_request(url)
 
   request = Net::HTTP::Get.new(uri)
 
-  response = Net::HTTP.start(uri.hostname, uri.port) do |http|
+  response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == 'https') do |http|
     http.request(request)
   end
 
