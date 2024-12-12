@@ -19,5 +19,5 @@ def post_request(url, body_params)
 
   puts "Response status: #{response.code} #{response.message}"
   puts "Response body:"
-  puts JSON.pretty_generate(body).strip
+  puts JSON.pretty_generate(body)
 end
